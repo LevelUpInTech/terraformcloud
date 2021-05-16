@@ -40,7 +40,7 @@ module "ec2_cluster" {
   name           = "my-cluster"
   instance_count = 1
 
-  ami                    = "ami-ebd02392"
+  ami                    = "ami-0d5eff06f840b45e9"
   instance_type          = "t2.micro"
   key_name               = "user1"
   monitoring             = true
